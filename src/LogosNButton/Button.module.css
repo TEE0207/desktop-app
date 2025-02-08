@@ -1,0 +1,104 @@
+.buttonContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+    
+  }
+  
+  .iosButton{
+    background-color: #26BBA4;
+    padding: 0.7rem 1.75rem;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    color: white;
+  }
+  
+  .macButton{
+    background-color: #6174FF;
+    padding: 0.7rem 1.75rem;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    color: white;
+  }
+
+  @media   screen and (max-width: 1120px) {
+
+    .buttonContainer{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      column-gap: 1rem;
+      
+    }
+    .iosButton{
+      /* width: 35%; */
+      background-color: #26BBA4;
+      padding:2rem 1rem;
+      border-radius: 1.5rem;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: 1.7rem;
+      
+    }
+
+    .macButton{
+      /* width: 40%; */
+      background-color: #6174FF;
+      padding:2rem 1rem;
+      border-radius: 1.5rem;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: large;
+      font-size: 1.7rem;
+      
+    }
+  }
+
+  @media   screen and (max-width: 480px) {
+
+    .buttonContainer{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      column-gap: 1rem;
+      
+    }
+    .iosButton{
+      /* width: 35%; */
+      background-color: #26BBA4;
+      padding:1rem 4rem;
+      border-radius: 1.5rem;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: 1.2rem;
+      /* font-weight: bold; */
+    }
+
+    .macButton{
+      /* width: 40%; */
+      background-color: #6174FF;
+      padding:1rem 4rem;
+      border-radius: 1.5rem;
+      border: none;
+      outline: none;
+      color: white;
+      
+      font-size: 1.2rem;
+      /* font-weight: bold; */
+    }
+  }

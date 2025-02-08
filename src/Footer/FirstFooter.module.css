@@ -1,0 +1,100 @@
+.firstFooterHeadingParagraphAndButtonContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+  }
+  
+  .firstFooterHeadingAndParagraphContainer{
+    width: 100%;
+    height: auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+  .firstFooterHeadingContainer{
+    color: #4C545C; 
+  }
+  
+  .firstFooterParagraph{
+    width: 40%;
+    color: #9EABB2;
+    text-align: center;
+  }
+
+  @media  screen and (max-width : 1120px) {
+    .firstFooterHeadingParagraphAndButtonContainer{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 4.5rem;
+      margin-top: 3rem;
+    }
+    .firstFooterHeadingAndParagraphContainer{
+      width: 100%;
+      height: auto;
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+      row-gap: 1rem;
+  }
+  
+  .firstFooterHeadingContainer{
+    width: 100%;
+    color: #4C545C; 
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .firstFooterParagraph{
+    width: 80%;
+    color: #9EABB2;
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+}
+
+@media  screen and (max-width : 480px) {
+  .firstFooterHeadingParagraphAndButtonContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5rem;
+    margin-top: 0rem;
+  }
+  .firstFooterHeadingAndParagraphContainer{
+    width: 100%;
+    height: auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.firstFooterHeadingContainer{
+  width: 100%;
+  color: #4C545C; 
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.firstFooterParagraph{
+  width: 98%;
+  color: #9EABB2;
+  text-align: center;
+  font-size: 1.35rem;
+  line-height: 2rem;
+}
+
+}

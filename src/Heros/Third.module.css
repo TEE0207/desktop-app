@@ -1,0 +1,383 @@
+.thirdHeroComponentContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 3.5rem;
+  }
+  
+  .thirdHeroHeadingParagraphContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.8rem;
+  }
+  
+  .thirdHeroHeadingContainer{
+    color: #4C545C;
+   
+    text-align: center;
+  }
+  
+  .thirdHeroFirstParagraphContainer{
+    color: #9EABB2;
+  }
+  
+  
+  .theThreeIconAndItsContentContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    /* column-gap: 0.5rem; */
+    /* background-color: aqua; */
+  
+  }
+  
+  .thirdHeroIconHeadingParagraphContainer{
+    width: 31%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.75rem;
+    /* background-color: red; */
+  
+  }
+
+  .thirdHeroParagraphContainer3{
+    color: #9EABB2;
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    text-align: center
+  }
+
+  .thirdHeroParagraphContainer1{
+    color: #9EABB2;
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    text-align: center
+  }
+
+  .thirdHeroParagraphContainer2{
+    color: #9EABB2;
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    text-align: center
+  }
+  
+  
+  
+  .thirdHeroIconAndHeadingContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.7rem;
+    text-align: center;
+    /* background-color: red; */
+  }
+
+  .thirdHeroHeadingAfterIconContainer2{
+    color: #4C545C;
+  }
+
+  .thirdHeroHeadingAfterIconContainer1{
+    color: #4C545C;
+  }
+
+  .thirdHeroHeadingAfterIconContainer3{
+    color: #4C545C;
+  }
+  
+  .thirdHeroIconContainer{
+    width: 40px;
+    height: 35px;
+  }
+  
+  .thirdHeroIconImage{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .thirdHeroIconContainer3{
+    width: 40px;
+    height: 30px;
+  }
+  
+  .thirdHeroIcon3Image{
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  .iconHeadingcontainer{
+    color: #4C545C; 
+  }
+
+  @media screen and (max-width : 1120px) {
+
+    .thirdHeroComponentContainer{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      row-gap: 5rem;
+      /* background-color: red; */
+    }
+   
+
+  .thirdHeroHeadingContainer{
+    color: #4C545C;
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  .thirdHeroFirstParagraphContainer{
+    color: #9EABB2;
+    font-size: 1.7rem;
+    width: 80%;
+    text-align: center;
+
+  }
+
+  .thirdHeroIconHeadingParagraphContainer{
+    width: 42%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.75rem;
+    /* background-color: red; */
+  
+  }
+
+  .thirdHeroIconContainer{
+    width: 80px;
+    height: 40px;
+  }
+  
+  .thirdHeroIconImage{
+    width: 100%;
+    height: 100%;
+  }
+
+  .thirdHeroIconContainer3{
+    width: 80px;
+    height: 40px;
+  }
+  
+  .thirdHeroIcon3Image{
+    width: 100%;
+    height: 100%;
+  }
+
+  .thirdHeroHeadingAfterIconContainer2{
+    font-size: 2rem;
+    color: #4C545C;
+
+  }
+
+  .thirdHeroHeadingAfterIconContainer1{
+    color: #4C545C;
+    padding: 0 2.5rem 0 0;
+    font-size: 2rem;
+  }
+
+  .thirdHeroHeadingAfterIconContainer3{
+    color: #4C545C;
+    font-size: 2rem;
+    /* padding:0 2.5rem 0 0; ; */
+  }
+
+  
+
+  .thirdHeroParagraphContainer1{
+    color: #9EABB2;
+    
+    width: 80%;
+    height: auto;
+    text-align: start;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .thirdHeroParagraphContainer2{
+    color: #9EABB2;
+    width: 80%;
+    height: auto;
+    text-align: start;
+    font-size: 1.5rem;
+    padding: 0 0 0 1rem;
+    line-height: 2rem;
+  }
+
+  .thirdHeroParagraphContainer3{
+    color: #9EABB2;
+    width: 80%;
+    height: auto;
+    text-align: start;
+    font-size: 1.5rem;
+    padding: 0 0 0 1.2rem;
+    line-height: 2rem;
+  }
+  
+}
+
+
+@media screen and (max-width : 480px){
+
+  .theThreeIconAndItsContentContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: nowrap;
+    row-gap: 4rem;
+    /* column-gap: 0.5rem; */
+    /* background-color: aqua; */
+  
+  }
+
+  .thirdHeroHeadingParagraphContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.8rem;
+  }
+
+  
+  .thirdHeroHeadingContainer{
+    color: #4C545C;
+    text-align: center;
+  }
+
+  .thirdHeroFirstParagraphContainer{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .thirdHeroIconHeadingParagraphContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+    /* background-color: red; */
+  
+  }
+
+  .thirdHeroIconAndHeadingContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3.5rem;
+    text-align: center;
+    /* background-color: red; */
+  }
+
+  .thirdHeroIconContainer{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .thirdHeroIconImage{
+    width: 100%;
+    height: 100%;
+  }
+
+  .thirdHeroIconContainer3{
+    width: 52px;
+    height: 40px;
+  }
+  
+  .thirdHeroIcon3Image{
+    width: 100%;
+    height: 100%;
+  }
+
+  .thirdHeroHeadingAfterIconContainer2{
+    font-size: 1.65rem;
+    color: #4C545C;
+
+  }
+
+  .thirdHeroHeadingAfterIconContainer1{
+    color: #4C545C;
+   
+    font-size: 1.65rem;
+  }
+
+  .thirdHeroHeadingAfterIconContainer3{
+    color: #4C545C;
+    font-size: 1.65rem;
+    /* padding:0 2.5rem 0 0; ; */
+  }
+
+  .thirdHeroParagraphContainer1{
+    color: #9EABB2;
+    
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.35rem;
+    line-height: 2rem;
+  }
+
+  .thirdHeroParagraphContainer2{
+    color: #9EABB2;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-right: 0.25rem;
+    line-height: 2rem;
+    
+  }
+
+  .thirdHeroParagraphContainer3{
+    color: #9EABB2;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    
+  }
+  
+}

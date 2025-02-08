@@ -1,0 +1,122 @@
+.secondHeroContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3.5rem;
+    /* background-color: orange; */
+  }
+  
+  .secondHeroHeadingAndParagraphContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.9rem;
+  }
+  
+  .secondHeroParagraphContainer{
+    width: 40%;
+    height: auto;
+    color: #9EABB2;
+    text-align: center;
+  }
+  
+ 
+  .secondHeroHeadingContainer{
+    color: #4C545C;
+  }
+  
+  .secondHeroDevicePicContainer{
+    width: 45%;
+    height: 400px;
+  }
+  
+  
+  .secondHeroDeviceImage{
+    width: 100%;
+    height: 100%;
+  }
+
+  @media  screen and (max-width : 1120px) {
+    .secondHeroContainer{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 5rem;
+      /* background-color: orange; */
+    }
+
+    .secondHeroHeadingContainer{
+      color: #4C545C;
+      width: 100%;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .secondHeroParagraphContainer{
+      width: 60%;
+      height: auto;
+      color: #9EABB2;
+      text-align: center;
+      font-size: 1.3rem;
+      line-height: 1.5;
+    }
+
+    .secondHeroDevicePicContainer{
+      width: 78%;
+      height: 400px;
+    }
+    
+    
+    .secondHeroDeviceImage{
+      width: 100%;
+      height: 100%;
+    }
+    
+  }
+
+  @media  screen and (max-width : 480px) {
+    .secondHeroContainer{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 5rem;
+      /* background-color: orange; */
+    }
+
+    .secondHeroHeadingContainer{
+      color: #4C545C;
+      width: 85%;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .secondHeroParagraphContainer{
+      width: 95%;
+      height: auto;
+      color: #9EABB2;
+      text-align: center;
+      font-size: 1.3rem;
+      line-height: 1.5;
+    }
+
+    .secondHeroDevicePicContainer{
+      width: 95%;
+      height: 320px;
+    }
+    
+    
+    .secondHeroDeviceImage{
+      width: 100%;
+      height: 100%;
+    }
+    
+  }
+  

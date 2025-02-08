@@ -1,0 +1,260 @@
+.firstHeroContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    
+    row-gap: 2.5rem;
+    /* background-color: red; */
+  }
+  
+  .firstHeroHeadingParagraphContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.8rem;
+    color: #4C545C;
+    /* background-color: red; */
+  }
+  
+ 
+  
+  .firstHeroParagraphContainer{
+    width: 37%;
+    height: auto;
+    color:#9EABB2;;
+    text-align: center;
+  }
+  
+ 
+  .desktopAndTheThreeContentContainer{
+    width: 100%;
+    /* background-color: blue; */
+    
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+  .desktopPicContainer{
+    width: 50%;
+    height: auto;
+    
+  }
+  
+  .desktopPicContainerImg{
+    width: 100%;
+    height: auto;
+    clip-path: inset(0px 0px 0px 50px);
+    margin-left: -3.1rem;
+  }
+  
+  .theThreeContentContainer{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    
+    height: auto;
+    row-gap: 2rem;
+    padding: 3rem 0rem 0rem 0rem;
+  }
+  
+  .contentHeadingAndParagraphContainer{
+    width: 100%;
+    height: auto;
+  }
+  
+  .contentHeadingContainer{
+    color: #4C545C;
+  }
+
+  .contentParagraphContainer1{
+    width: 46%;
+    color: #9EABB2;
+  }
+  
+  .contentParagraphContainer2{
+    width: 45%;
+    color: #9EABB2;
+  }
+  .contentParagraphContainer3{
+    width: 43%;
+    color: #9EABB2;
+  }
+  
+  @media  screen and (max-width : 1120px)  {
+
+    .firstHeroHeadingContainer{
+      font-size: 1.5rem;
+      width: 80%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .firstHeroParagraphContainer{
+      width: 80%;
+      height: auto;
+      color:#9EABB2;;
+      text-align: center;
+      font-size: 1.7rem;
+    }
+    .desktopPicContainer{
+      width: 75%;
+      height: auto;
+      margin: 2rem auto;
+    }
+
+    .desktopPicContainerImg{
+      width: 100%;
+      height: auto;
+      clip-path: none;
+      margin-left: 0;
+      
+    }
+
+    .theThreeContentContainer{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      
+      height: auto;
+      row-gap: 2rem;
+      
+
+    }
+
+    .contentHeadingAndParagraphContainer{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 0.9rem;
+    }
+
+    .contentHeadingContainer{
+      color: #4C545C;
+      font-size: 2rem;
+    }
+  
+    .contentParagraphContainer1{
+      width: 55%;
+      color: #9EABB2;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    
+    .contentParagraphContainer2{
+      width: 55%;
+      color: #9EABB2;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .contentParagraphContainer3{
+      width: 55%;
+      color: #9EABB2;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  }
+
+  @media  screen and (max-width : 480px)  {
+
+    .firstHeroHeadingParagraphContainer{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 1.2rem;
+      color: #4C545C;
+      
+    }
+
+    .firstHeroHeadingContainer{
+      font-size: 1rem;
+      width: 100%;
+      background-color: none;
+      text-align: center;
+    }
+
+    .firstHeroParagraphContainer{
+      width: 90%;
+      height: auto;
+      color:#9EABB2;;
+      text-align: center;
+      font-size: 1.25rem;
+      line-height: 2rem;
+    }
+    .desktopPicContainer{
+      width: 85%;
+      height: auto;
+      margin: 2rem auto;
+    }
+
+    .desktopPicContainerImg{
+      width: 100%;
+      height: auto;
+      clip-path: none;
+      margin-left: 0;
+      
+    }
+
+    .theThreeContentContainer{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      
+      height: auto;
+      row-gap: 4rem;
+      
+
+    }
+
+    .contentHeadingAndParagraphContainer{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 0.8rem;
+    }
+
+    .contentHeadingContainer{
+      color: #4C545C;
+      font-size: 1.5rem;
+    }
+  
+    .contentParagraphContainer1{
+      width: 95%;
+      color: #9EABB2;
+      font-size: 1.2rem;
+      text-align: center;
+      line-height: 1.8rem;
+    }
+    
+    .contentParagraphContainer2{
+      width: 80%;
+      color: #9EABB2;
+      font-size: 1.2rem;
+      text-align: center;
+      line-height: 1.8rem;
+    }
+    .contentParagraphContainer3{
+      width: 95%;
+      color: #9EABB2;
+      font-size: 1.5rem;
+      text-align: center;
+      line-height: 1.8rem;
+    }
+  }
