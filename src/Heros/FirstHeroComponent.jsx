@@ -1,5 +1,5 @@
 import computer from "../assets/imageComputer.png"
-import styles from "./first.module.css";
+import styles from "./First.module.css";
 
 export default function FirstHeroComponent (){
 
