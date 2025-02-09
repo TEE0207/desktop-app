@@ -103,11 +103,11 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 9rem;
     row-gap: 0rem;
-    padding-left: 5.5rem;
     flex-wrap: wrap;
     row-gap: 5rem;
     

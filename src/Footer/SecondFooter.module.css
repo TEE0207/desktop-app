@@ -89,19 +89,43 @@
 
   @media  screen and (max-width : 1120px) {
     .secondFooterLogoAndAllTextContainer{
-      width: 95%;
+      width: 100%;
       height: auto;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: start;
+      padding: 2rem ;
       align-items: center;
-      column-gap: 4rem;
+      column-gap: 2rem;
       /* background-color: red; */
   }
 
+  .secondFooterAndAllContentContainer{
+    width: 100%;
+    height: auto;
+    background-color: #9EABB2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 0rem;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+
+    .secondFooterAllTextContainer{
+     width: auto;
+      height: auto;
+      display: flex;
+      
+      flex-direction: row;
+      column-gap: 1rem;
+      /* background-color: black; */
+    }
+
   .secondFooterLogoContainer{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
   }
   
   .secondFooterLogoImage{
@@ -109,24 +133,16 @@
     height: 100%;
   }
 
-  .secondFooterAllTextContainer{
-    width: 70%;
-    height: auto;
-    display: flex;
-    
-    flex-direction: row;
-    column-gap: 6rem;
-    /* background-color: red; */
-  }
+  
 
   .secondFooterFirst2TextByColumnContainer{
     width: fit-content;
     height: auto;
     display: flex;
     flex-direction: column;
-    row-gap: 4.5rem;
+    row-gap: 2rem;
     color:#4C545C ;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .secondFooterSecond2TextByColumnContainer{
@@ -136,14 +152,14 @@
     flex-direction: column;
     row-gap: 2rem;
     color:#4C545C ;
-    font-size: 2rem
+    font-size: 1.2rem
   }
 
   .secondFooterLast1TextByColumnContainer{
     width: fit-content;
     height: auto;
     color:#4C545C ;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 
   .secondFooterAllSocialMediaContainer{
@@ -152,15 +168,16 @@
     height: auto;
     display: flex;
     flex-direction: row;
-    column-gap: 3rem;
+    column-gap: 2rem;
     justify-content: center;
     /* background-color: red; */
-    margin-left: 12rem;
+    margin-left: 7rem;
+    margin-bottom: 1rem;
   }
   
   .secondFooterSocialMediaContainer {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
   }
   
   .secondFooterSocialMediaImage{

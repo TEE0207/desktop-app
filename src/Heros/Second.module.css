@@ -18,7 +18,7 @@
   }
   
   .secondHeroParagraphContainer{
-    width: 40%;
+    width: 36%;
     height: auto;
     color: #9EABB2;
     text-align: center;
@@ -93,17 +93,17 @@
 
     .secondHeroHeadingContainer{
       color: #4C545C;
-      width: 85%;
+      width: 75%;
       text-align: center;
       font-size: 1.5rem;
     }
 
     .secondHeroParagraphContainer{
-      width: 95%;
+      width: 80%;
       height: auto;
       color: #9EABB2;
       text-align: center;
-      font-size: 1.3rem;
+      font-size: 1.28rem;
       line-height: 1.5;
     }
 

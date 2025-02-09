@@ -21,7 +21,7 @@
   }
   
   .firstFooterParagraph{
-    width: 40%;
+    width: 37%;
     color: #9EABB2;
     text-align: center;
   }
@@ -83,14 +83,14 @@
 }
 
 .firstFooterHeadingContainer{
-  width: 100%;
+  width: 85%;
   color: #4C545C; 
   text-align: center;
   font-size: 1.75rem;
 }
 
 .firstFooterParagraph{
-  width: 98%;
+  width: 85%;
   color: #9EABB2;
   text-align: center;
   font-size: 1.35rem;

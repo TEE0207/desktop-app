@@ -37,7 +37,7 @@
     align-items: start;
     flex-wrap: wrap;
     row-gap: 4rem;
-    /* column-gap: 0.5rem; */
+   
     /* background-color: aqua; */
   
   }
@@ -59,7 +59,7 @@
     display:flex ;
     flex-direction: row;
     justify-content: center;
-    width: 70%;
+    width: 68%;
     height: auto;
     text-align: center
   }
@@ -69,7 +69,7 @@
     display:flex ;
     flex-direction: row;
     justify-content: center;
-    width: 70%;
+    width: 65%;
     height: auto;
     text-align: center
   }
@@ -79,7 +79,7 @@
     display:flex ;
     flex-direction: row;
     justify-content: center;
-    width: 70%;
+    width: 65%;
     height: auto;
     text-align: center
   }
@@ -251,6 +251,15 @@
 
 @media screen and (max-width : 480px){
 
+  .thirdHeroComponentContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 6rem;
+  }
+
   .theThreeIconAndItsContentContainer{
     width: 100%;
     height: auto;
@@ -279,6 +288,7 @@
   .thirdHeroHeadingContainer{
     color: #4C545C;
     text-align: center;
+    width: 80%;
   }
 
   .thirdHeroFirstParagraphContainer{
@@ -352,7 +362,7 @@
   .thirdHeroParagraphContainer1{
     color: #9EABB2;
     
-    width: 100%;
+    width: 85%;
     height: auto;
     text-align: center;
     font-size: 1.35rem;
@@ -361,7 +371,7 @@
 
   .thirdHeroParagraphContainer2{
     color: #9EABB2;
-    width: 100%;
+    width: 88%;
     height: auto;
     text-align: center;
     font-size: 1.3rem;
@@ -372,7 +382,7 @@
 
   .thirdHeroParagraphContainer3{
     color: #9EABB2;
-    width: 100%;
+    width: 88%;
     height: auto;
     text-align: center;
     font-size: 1.3rem;

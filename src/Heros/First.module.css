@@ -23,7 +23,7 @@
  
   
   .firstHeroParagraphContainer{
-    width: 37%;
+    width: 36%;
     height: auto;
     color:#9EABB2;;
     text-align: center;
@@ -48,6 +48,7 @@
     width: 50%;
     height: auto;
     
+    
   }
   
   .desktopPicContainerImg{
@@ -65,6 +66,7 @@
     height: auto;
     row-gap: 2rem;
     padding: 3rem 0rem 0rem 0rem;
+   
   }
   
   .contentHeadingAndParagraphContainer{
@@ -77,12 +79,12 @@
   }
 
   .contentParagraphContainer1{
-    width: 46%;
+    width: 43%;
     color: #9EABB2;
   }
   
   .contentParagraphContainer2{
-    width: 45%;
+    width: 43%;
     color: #9EABB2;
   }
   .contentParagraphContainer3{
@@ -183,18 +185,18 @@
 
     .firstHeroHeadingContainer{
       font-size: 1rem;
-      width: 100%;
+      width: 80%;
       background-color: none;
       text-align: center;
     }
 
     .firstHeroParagraphContainer{
-      width: 90%;
+      width: 83%;
       height: auto;
       color:#9EABB2;;
       text-align: center;
-      font-size: 1.25rem;
-      line-height: 2rem;
+      font-size: 1.34rem;
+      line-height: 1.7rem;
     }
     .desktopPicContainer{
       width: 85%;
@@ -236,15 +238,15 @@
     }
   
     .contentParagraphContainer1{
-      width: 95%;
+      width: 85%;
       color: #9EABB2;
-      font-size: 1.2rem;
+      font-size: 1.35rem;
       text-align: center;
       line-height: 1.8rem;
     }
     
     .contentParagraphContainer2{
-      width: 80%;
+      width: 70%;
       color: #9EABB2;
       font-size: 1.2rem;
       text-align: center;

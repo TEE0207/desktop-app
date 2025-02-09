@@ -6,8 +6,8 @@
   width: 100%;
   height: auto;
   row-gap: 2rem; 
-  margin-bottom: 4rem;
-  /* /* background-color: black; */
+  margin-bottom: 6rem;
+  background-color: white;
 
 }
 
@@ -18,7 +18,7 @@
   width: 100%;
   height: auto;
   row-gap: 5rem;
-   /* background-color: red; */
+   background-color: white;
    margin-bottom: 4rem;
  
 }
@@ -44,26 +44,23 @@
   }
 
   .dashboardLayout{
-    width: 1440px;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    
-    margin: 4rem auto;
-
-    
-    background-color: #f2f2f2;
+    flex-direction: column; 
+    background-color: white;
   }
 
   @media screen and (max-width : 1120px) {
 
     .dashboardLayout{
-      width: 90%;
+      width: 100vw;
+      height: 100vh;
       height: auto;
       display: flex;
       flex-direction: column;
-      margin: 1rem auto;
-      background-color: #f2f2f2;
+      
+      background-color: white;
     }
 
     .headerContainer{
@@ -71,6 +68,7 @@
       flex-direction: column;
       width: 100%;
       height: auto;
+      row-gap: 3.5rem;
       margin-bottom: 6rem;
        
     }
@@ -100,11 +98,12 @@
 
   @media screen and (max-width : 480px){
     .dashboardLayout{
-      width: 375px;
+      width: 100vw;
+      height: 100vh;
       height: auto;
       display: flex;
       flex-direction: column;
-      background-color: #f2f2f2;
+      background-color: white;
     }
 
     .headerContainer{
@@ -113,6 +112,7 @@
       width: 100%;
       height: auto;
       margin-bottom: 9rem;
+      background-color: white;
        
     }
 

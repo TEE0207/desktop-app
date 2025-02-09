@@ -51,7 +51,7 @@
   }
   
   .clipboardContainer{
-    width: 35%;
+    width: 33%;
     height: auto;
     color: #9EABB2;
     text-align: center;
@@ -60,11 +60,29 @@
 
   @media  screen and (max-width : 1120px){
     .clipboardContainer{
-      width: 65%;
+      width: 70%;
       height: auto;
       color: #9EABB2;
       text-align: center;
       line-height: 1.7rem;
+      font-size: 1.5rem;
+    }
+    .historyContainer{
+      color: #4C545C;
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      font-size: 1.45rem;
+      
+    }
+
+    .clipboardContainer{
+      width: 78%;
+      height: auto;
+      color: #9EABB2;
+      text-align: center;
       font-size: 1.5rem;
     }
     
@@ -90,10 +108,11 @@
       width: 80%;
       color: #4C545C;
       text-align: center;
+      font-size: 1.1rem;
     }
     
     .clipboardContainer{
-      width: 95%;
+      width: 83%;
       height: auto;
       color: #9EABB2;
       text-align: center;
