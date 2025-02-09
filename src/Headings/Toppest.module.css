@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url("../src/assets/bg-header-desktop.png");
+    background-image: url("/bg-header-desktop.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +98,7 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
-      background-image: url("../src/assets/bg-header-mobile.png");
+      background-image: url("/bg-header-mobile.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
