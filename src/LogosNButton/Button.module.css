@@ -12,21 +12,35 @@
   }
   
   .iosButton{
-    background-color: #26BBA4;
+    background-color: rgb(38, 187, 164);
     padding: 0.7rem 1.75rem;
     border-radius: 1.5rem;
     border: none;
     outline: none;
     color: white;
+    cursor: pointer;
+    transition: background-color 0.5s;
   }
+
+  .iosButton:hover{
+    background-color: rgba(38, 187, 164, 0.7)
+  }
+
+ 
   
   .macButton{
-    background-color: #6174FF;
+    background-color: rgb(97, 116, 255);
     padding: 0.7rem 1.75rem;
     border-radius: 1.5rem;
     border: none;
     outline: none;
     color: white;
+    cursor: pointer;
+    transition: background-color 0.5s;;
+  }
+
+  .macButton:hover{
+    background-color: rgba(97, 116, 255, 0.7);
   }
 
   @media   screen and (max-width: 1120px) {
