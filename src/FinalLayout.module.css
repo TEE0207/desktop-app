@@ -49,6 +49,7 @@
     display: flex;
     flex-direction: column; 
     background-color: white;
+    overflow-x: hidden;
   }
 
   @media screen and (max-width : 1120px) {
